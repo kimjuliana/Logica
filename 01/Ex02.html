@@ -6,3 +6,29 @@ Depois disso  calcule e mostre no console:
 a) O valor dos 10% (cota do garçom)
 b) O valor final da conta (consumo + 10%)
 c) O valor que cada cliente deve pagar -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercicio 2</h1>
+    <script>
+    var consumo=parseFloat(prompt("Valor do consumo:"));
+    var clientes=parseInt(prompt("Numero de clientes:"));
+    var servico= 0.1;
+    console.log("Valor inicial do consumo: " + consumo);
+   
+    servico = consumo * 0.1;
+    console.log("Comissao do garcom: " + servico);
+    console.log("Valor total + taxa de servico: " , consumo + servico);
+    console.log("Valor por cliente: " + (consumo + servico)/ clientes);
+    
+
+    </script>
+</body>
+</html>
