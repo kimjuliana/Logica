@@ -6,3 +6,26 @@ Exemplo de saída:
     Preço: R$ 60.00
     À vista: R$ 54.00
     Ou 3x de: R$ 20.00 -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Exercicio 3</h1>
+        <script>
+            // var precoProduto = 60;
+        var precoProduto = (prompt("Preço do produto: "));
+        console.log("O preço do produto é: R$ " + precoProduto.toFixed);
+        var precoavista = precoProduto *0.90;
+        console.log("O preço à vista é: R$ " + precoavista.toFixed(2));
+        var precoparcelado = precoProduto / 3;
+        console.log("O preço parcelado é: R$ " + 
+        precoparcelado.toFixed(2));
+        </script>
+        
+    </body>
+    </html>
